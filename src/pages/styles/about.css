@@ -151,14 +151,28 @@
 		padding-top: 30px;
 		display: flex;
 	}
+	.personal-bio {
+		width: 100%;
+	}
+	.skills-container {
+		width: 100%;
+	}
 }
 
 @media (max-width: 600px) {
 	.about-container {
-		padding-top: 60px;
+		padding-top: 10px;
 	}
-
+	.about-title {
+		margin-top: 10px;
+	}
+	.personal-bio {
+		width: 100%;
+	}
+	.skills-container {
+		width: 100%;
+	}
 	.about-image-container {
-		width: 80%;
+		width: 100%;
 	}
 }

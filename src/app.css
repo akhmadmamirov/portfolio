@@ -22,11 +22,14 @@
 	background: black;
 	position: relative;
 }
+.loading-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .loading-text-container {
-	display: inline-block;
 	padding-top: 20%;
-	padding-left: 20%;
 }
 
 .text {
@@ -178,6 +181,9 @@ p {
 		padding: 0 10px;
 	}
 
+	p {
+		text-wrap: wrap;
+	}
 	.page-content:before,
 	.page-content:after {
 		display: none;
@@ -190,4 +196,11 @@ p {
 	.subtitle {
 		width: 100%;
 	}
+
+	.loading-text-container {
+		padding-top: 80%;
+	}
+	
+	
 }
+

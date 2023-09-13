@@ -113,3 +113,10 @@
 		width: 100% !important;
 	}
 }
+
+@media (max-width: 600px) {
+    .experience-title{ 
+        margin-top: 15px;
+}
+    
+}
