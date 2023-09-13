@@ -79,7 +79,7 @@ const Experiences = () => {
 								<div class="positions-container">
 									<div class="level-container">
 										<p class="job-title">
-											Software Engineering Intern
+											Software Engineer Intern
 										</p>
 										<p class="date">
 										05/10/2023 - 07/05/2023
