@@ -12,7 +12,7 @@ const Footer = () => {
 						Created by 
 						<span class="name">Akhmadillo Mamirov</span>
 					</p>
-					<p class="last-updated">Last Updated: 09/15/2023</p>
+					<p class="last-updated">Last Updated: 09/21/2023</p>
 				</div>
 			</div>
 		</React.Fragment>
