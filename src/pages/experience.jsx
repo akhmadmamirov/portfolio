@@ -55,11 +55,15 @@ const Experiences = () => {
 									</div>
 									<ul class="description-container">
 										<li>
-											Established and spreadheaded the first Google Developer Student Clubs at 
-											the College of Wooster to create an environment for members to learn, support and network with each other.
+											Established and spearheaded the first Google Developer Student Clubs (GDSC) at the College of Wooster (COW) 
+											to create an environment for members to learn, support, and network with each other.
 										</li>
 										<li>
 											Coordinated logistics between multiple parties to create beneficial events such as Coding Workshops and Tech Talks.
+										</li>
+										<li>
+											Worked directly with the chair of CS & Math department to expand the GDSC mission, reaching 90% of students within 
+											the department and extending its influence to other academic departments at the COW.
 										</li>
 									</ul>
 									<ul class="skill-badges-container">
