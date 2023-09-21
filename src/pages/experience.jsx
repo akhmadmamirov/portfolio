@@ -26,7 +26,7 @@ const Experiences = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="experiences" />
+				<NavBar active="experience" />
 				<div className="content-wrapper">
 					<div className="experiences-logo-container">
 						<div className="experiences-logo">
