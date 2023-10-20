@@ -2,7 +2,6 @@ const INFO = {
 	main: {
 		title: "Akhmad M",
 		name: "Akhmadillo Mamirov",
-		email: "akhmadillo1@gmail.com",
 		logo: "../headshot.png",
 	},
 
