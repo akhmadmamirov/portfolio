@@ -129,9 +129,9 @@ const Experiences = () => {
 									<ul class="description-container">
 										<li>Optimized UI Performance by revitalizing React and Redux UI components (Security, Payment, Billing) for the
 										GraphGrid CDP, resulting in 25% faster load times and a 40% reduction in user-reported glitches.</li>
-										<li >Enhanced Amazon Instance Types Configuration: Revamped grid configurations in the UI to align with Amazon
-										instance types, improving the efficiency of resource allocation and bolstering the application's performance.</li>
-										<li>Boosted Scalability and Codebase Stability: Led upgrades of Node.js and React across the codebase, resulting in
+										<li >Enhanced Amazon instance types configuration by revamping grid configurations in the UI to align with Amazon
+										instance types, improving the efficiency of resource allocation and bolstering the application's performance..</li>
+										<li>Boosted scalability and codebase stability by leading upgrades of Node.js and React across the codebase, resulting in
 										heightened scalability and code maintainability, while also significantly reducing runtime errors.</li>
 									</ul>
 									<ul class="skill-badges-container">
