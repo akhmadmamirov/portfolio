@@ -48,10 +48,10 @@ const Contact = () => {
 							Thank you for your interest in getting in touch with
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at the email listed below.
+							comment, please feel free to reach me out using Linkedin.
 							I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
-							periods.But, I'll get back to you as soon as
+							periods. But, I'll get back to you as soon as
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
