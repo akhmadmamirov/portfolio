@@ -57,7 +57,7 @@ const About = () => {
 								<span class="key-word">Software development</span> 
 								is so awesome because it is a crosspath of problem solving, coding, and creating a tangible project and design which I love. 
 								I get to interact with several teams whether it be business, UX and accessibility, and the back end team to make sure that
-								the proejct is on track to being successful.
+								the project is on track to being successful.
 								</p>
 								<p class="about-item" data-v-0104b974=""> 
 									I'm always one to <span class="key-word">say "yes" to opportunities</span> 

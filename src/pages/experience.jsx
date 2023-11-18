@@ -39,6 +39,43 @@ const Experiences = () => {
 							<p class="description">Here are all of my most recent experiences with web development and what I have learned.</p>
 						</div>
 					<div className="experiences-main-container">
+						<section class="experience-container">
+							<div class="job-description">
+								<p class="company-title" role="heading">
+									The College of Wooster
+								</p>
+								<div class="positions-container">
+									<div class="level-container">
+										<p class="job-title">
+											Software Engineer Research Intern
+										</p>
+										<p class="date">
+										26/11/2023 - Present
+										</p>
+									</div>
+									<ul class="description-container">
+										<li>
+											Pioneered a chat solution answering queries across 200+ College of Wooster websites with natural language
+											recognition, providing precise sources for user clarity, especially for parents less adept at online searches.
+										</li>
+										<li>
+											Revolutionized SQL database interaction for non-technical users by creating a text-generation pipeline powered by
+											OpenAI API and Langchain, enabling seamless query generation and handling 95% of technical complexities.
+										</li>
+										<li>
+											Orchestrated a microservices architecture using Vite JS, Express JS, and AWS services (EC2, S3), achieving a 50%
+											reduction in server workload.
+										</li>
+									</ul>
+									<ul class="skill-badges-container">
+										<li class="skill-badge">Team Leadership</li>
+										<li class="skill-badge">Communication</li>
+										<li class="skill-badge">Team Work</li>
+										<li class="skill-badge">Networking</li>
+									</ul>
+								</div>	
+							</div>
+						</section>
 					<section class="experience-container">
 							<div class="job-description">
 								<p class="company-title" role="heading">
