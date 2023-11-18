@@ -68,10 +68,10 @@ const Experiences = () => {
 										</li>
 									</ul>
 									<ul class="skill-badges-container">
-										<li class="skill-badge">Team Leadership</li>
-										<li class="skill-badge">Communication</li>
-										<li class="skill-badge">Team Work</li>
-										<li class="skill-badge">Networking</li>
+										<li class="skill-badge">OpenAI API</li>
+										<li class="skill-badge">Langchain</li>
+										<li class="skill-badge">Pinecone</li>
+										<li class="skill-badge">AWS</li>
 									</ul>
 								</div>	
 							</div>
