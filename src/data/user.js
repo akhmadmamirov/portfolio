@@ -46,7 +46,7 @@ const INFO = {
 			link: "https://github.com/akhmadmamirov/DevCamper",
 		},
 		{
-			title: "DistilBERT",
+			title: "SpeedyBERT",
 			description:
 				"NLP Pipeline to fine-tune Google's BERT Model using TensoFlow tensors",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
