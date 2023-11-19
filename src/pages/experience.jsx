@@ -72,7 +72,6 @@ const Experiences = () => {
 										<li class="skill-badge">Langchain</li>
 										<li class="skill-badge">Pinecone</li>
 										<li class="skill-badge">AWS</li>
-										<li class="skill-badge">OpenAI API</li>
 										<li class="skill-badge">Prompt Engineering</li>
 									</ul>
 								</div>	
