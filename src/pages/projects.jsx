@@ -41,9 +41,7 @@ const Projects = () => {
 						<div className="title projects-title">
 							Projects
 							<span class="period" data-v-09456b5b="">.</span>
-							<p class="description">Here are some of the awesome projects that I have created in my time doing web development & nlp.</p>
-							<p class="description">I go above and beyond software. I build - break - test - learn ... build -</p>
-							<p class="description">I play. Like I play violin, piano, basketball. I am all in!</p>
+							<p class="description">Here are some of the awesome projects that I have created in my time doing web & nlp development.</p>
 						</div>
 
 						<div className="projects-list">
