@@ -36,7 +36,7 @@ const Experiences = () => {
 					<div className="title experience-title">
 						Work Experience
 							<span class="period" data-v-09456b5b="">.</span>
-							<p class="description">Here are all of my most recent experiences with web development and what I have learned.</p>
+							<p class="description">Here are all of my most recent work experiences and what I have learned.</p>
 						</div>
 					<div className="experiences-main-container">
 						<section class="experience-container">
