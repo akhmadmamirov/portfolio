@@ -30,6 +30,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Work Samples",
+			description:
+				"This is a selected collection of my work samples. Please refer to my github for a full list of my projects. Thank you and Enjoy!",
+			logo: "https://cdnlogo.com/logos/c/76/c.svg",
+			linkText: "View Samples",
+			link: "https://docs.google.com/document/d/19Y-YFbrE7BIG59aiTfv2Gob0y9W84YaXkO6UuCIqfxc/edit?usp=sharing",
+		},
+		{
 			title: "DevCamper",
 			description:
 				"Bootcamp Directory API built using Express.js and Node.js",
