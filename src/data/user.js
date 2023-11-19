@@ -13,7 +13,7 @@ const INFO = {
 	homepage: {
 		title: "Akhmadillo Mamirov",
 		description:
-			"Full Stack Developer and NLP Engineer with a focus on Training LLMs",
+			"Future Tech Leader and Software Engineer with a mission of changing lives of billions",
 	},
 
 	about: {
