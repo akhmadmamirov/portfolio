@@ -13,7 +13,7 @@ const INFO = {
 	homepage: {
 		title: "Akhmadillo Mamirov",
 		description:
-			"Future Tech Leader and Software Engineer with a mission of changing lives of billions",
+			"Future Tech Leader and Software Engineer with a mission of changing lives for billions",
 	},
 
 	about: {
