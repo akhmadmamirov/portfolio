@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Akhmad M",
+		title: "Akhmadillo M",
 		name: "Akhmadillo Mamirov",
 		logo: "../headshot.png",
 	},
