@@ -40,7 +40,7 @@ const About = () => {
 						<div className="title about-title">
 							{INFO.about.title}
 							<span class="period" data-v-09456b5b="">.</span>
-							<p class="description">Learn more about what technologies I have experience in and why I love to do what I do!</p>
+							<p class="description">Learn more about what technologies I have experience in and why I love what I do!</p>
 						</div>
 					</div>
 					<div className="about-container">
