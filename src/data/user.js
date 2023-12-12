@@ -30,6 +30,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Work Samples - 2024",
+			description:
+				"This is a selected collection of my work samples for the year 2024. Please refer to my github for a full list of my projects. Thank you and Enjoy!",
+			logo: "https://www.cdnlogo.com/logos/d/17/docker.svg",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Samples",
+			link: "https://docs.google.com/document/d/1KzvU4vRhXeM7jV48TgliyAhOOuv_HU-FBliTEmdSHE4/edit?usp=sharing",
+		},
+		{
 			title: "Work Samples - 2023",
 			description:
 				"This is a selected collection of my work samples for the year 2023. Please refer to my github for a full list of my projects. Thank you and Enjoy!",

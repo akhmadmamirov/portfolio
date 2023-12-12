@@ -40,6 +40,21 @@ const Experiences = () => {
 						</div>
 					<div className="experiences-main-container">
 						<section class="experience-container">
+						<div class="job-description">
+								<p class="company-title" role="heading">
+									Electronic Arts (EA)
+								</p>
+								<div class="positions-container">
+									<div class="level-container">
+										<p class="job-title">
+											Incoming Software Engineer Intern
+										</p>
+										<p class="date">
+										05/20/2024 - 08/09/2024
+										</p>
+									</div>
+								</div>	
+							</div>
 							<div class="job-description">
 								<p class="company-title" role="heading">
 									The College of Wooster
