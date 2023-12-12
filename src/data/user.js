@@ -33,8 +33,9 @@ const INFO = {
 			title: "Work Samples - 2024",
 			description:
 				"This is a selected collection of my work samples for the year 2024. Please refer to my github for a full list of my projects. Thank you and Enjoy!",
-			logo: "https://www.cdnlogo.com/logos/d/56/docker.svg",
+			logo: "https://cdnlogo.com/logos/c/76/c.svg",
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo3: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Samples",
 			link: "https://docs.google.com/document/d/1KzvU4vRhXeM7jV48TgliyAhOOuv_HU-FBliTEmdSHE4/edit?usp=sharing",
 		},
@@ -43,6 +44,8 @@ const INFO = {
 			description:
 				"This is a selected collection of my work samples for the year 2023. Please refer to my github for a full list of my projects. Thank you and Enjoy!",
 			logo: "https://cdnlogo.com/logos/c/76/c.svg",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo3: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Samples",
 			link: "https://docs.google.com/document/d/19Y-YFbrE7BIG59aiTfv2Gob0y9W84YaXkO6UuCIqfxc/edit?usp=sharing",
 		},
