@@ -20,7 +20,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`About me`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -69,10 +69,11 @@ const About = () => {
 								role="contentinfo" aria-label="skills">
 								<h2 class="skills-header">Skills</h2>
 								<ul class="row">
-									<li class="skill tech" data-v-0104b974="">Python</li>
-									<li class="skill tech" data-v-0104b974="">JavaScript</li>
 									<li class="skill tech" data-v-0104b974="">C++</li>
+									<li class="skill tech" data-v-0104b974="">JavaScript</li>
+									<li class="skill tech" data-v-0104b974="">Python</li>
 									<li class="skill tech" data-v-0104b974="">React.js</li>
+									<li class="skill tech" data-v-0104b974="">Express.js</li>
 									<li class="skill tech" data-v-0104b974="">Node.js</li>
 									<li class="skill tech" data-v-0104b974="">Web development</li>
 									<li class="skill tech" data-v-0104b974="">TensorFlow</li>
@@ -86,7 +87,6 @@ const About = () => {
 									<li class="skill tech" data-v-0104b974="">Bootstrap</li>
 									<li class="skill tech" data-v-0104b974="">HTML</li>
 									<li class="skill tech" data-v-0104b974="">CSS</li>
-									<li class="skill tech" data-v-0104b974="">Express.js</li>
 									</ul><h2 class="skills-header" data-v-0104b974="">Soft Skills</h2>
 									<ul class="row"><li class="skill soft">Fire</li>
 									<li class="skill soft" data-v-0104b974="">Passionate</li>

@@ -22,7 +22,7 @@ const Experiences = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`experience | ${INFO.main.title}`}</title>
+				<title>{`Experience | ${INFO.main.title}`}</title>
 			</Helmet>
 
 			<div className="page-content">
@@ -39,8 +39,8 @@ const Experiences = () => {
 							<p class="description">Here are all of my most recent work experiences and what I have learned.</p>
 						</div>
 					<div className="experiences-main-container">
-						<section class="experience-container">
-						<div class="job-description">
+					<section class="experience-container">
+							<div class="job-description">
 								<p class="company-title" role="heading">
 									Electronic Arts (EA)
 								</p>
@@ -55,6 +55,8 @@ const Experiences = () => {
 									</div>
 								</div>	
 							</div>
+						</section>
+						<section class="experience-container">
 							<div class="job-description">
 								<p class="company-title" role="heading">
 									The College of Wooster
@@ -92,7 +94,7 @@ const Experiences = () => {
 								</div>	
 							</div>
 						</section>
-					<section class="experience-container">
+						<section class="experience-container">
 							<div class="job-description">
 								<p class="company-title" role="heading">
 									Google Developer Student Clubs

@@ -21,7 +21,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`Projects`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -41,7 +41,7 @@ const Projects = () => {
 						<div className="title projects-title">
 							Projects
 							<span class="period" data-v-09456b5b="">.</span>
-							<p class="description">Here are some of the awesome projects that I have created in my time doing web & nlp development.</p>
+							<p class="description">I like to play. My work is play. I break, build, test software. You can find some of my work from my playground below</p>
 						</div>
 
 						<div className="projects-list">
