@@ -21,7 +21,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects`}</title>
+				<title>{`My Projects`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
