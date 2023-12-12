@@ -22,7 +22,7 @@ const Experiences = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Experience | ${INFO.main.title}`}</title>
+				<title>{`My Experience`}</title>
 			</Helmet>
 
 			<div className="page-content">
