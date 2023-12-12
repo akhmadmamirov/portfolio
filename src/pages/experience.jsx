@@ -50,7 +50,7 @@ const Experiences = () => {
 											Incoming Software Engineer Intern
 										</p>
 										<p class="date">
-										05/20/2024 - 08/09/2024
+											Summer 2024
 										</p>
 									</div>
 								</div>	
