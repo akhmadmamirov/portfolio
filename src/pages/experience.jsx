@@ -49,9 +49,6 @@ const Experiences = () => {
 										<p class="job-title">
 											Incoming Software Engineer Intern
 										</p>
-										<p class="date">
-											Summer 2024
-										</p>
 									</div>
 								</div>	
 							</div>
