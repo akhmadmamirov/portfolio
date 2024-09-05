@@ -1,6 +1,6 @@
 @import "../../data/styles.css";
 
-.homepage-logo-container {
+.homepage-navbar-container {
 	display: flex;
 	justify-content: left;
 	align-items: center;

@@ -1,31 +1,19 @@
 import { Routes, Route } from "react-router-dom";
-
-import Homepage from "./pages/homepage";
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Experiences from "./pages/experience";
-import Contact from "./pages/contact";
-import Notfound from "./pages/404";
-
+import routes from "./constant/routes";
 import "./app.css";
 
 function App() {
-	return (
-		<div className="App">
-			
-			<div>
-				<Routes>
-					<Route path="/" element={<Homepage />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/experience" element={<Experiences />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<Notfound />} />
-				</Routes>
-			</div>
-		
-    	</div>
-		)	
+  return (
+    <div className="App">
+      <div>
+        <Routes>
+          {routes.map(({ path, Component }) => (
+            <Route key={path} path={path} element={<Component />} />
+          ))}
+        </Routes>
+      </div>
+    </div>
+  );
 }
 
 export default App;

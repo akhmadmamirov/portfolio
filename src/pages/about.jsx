@@ -1,13 +1,8 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-
-import INFO from "../data/user";
-import SEO from "../data/seo";
-
+import userINFO from "../data/userInfo";
 import "./styles/about.css";
 
 const About = () => {
@@ -15,19 +10,8 @@ const About = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
-
 	return (
-		<React.Fragment>
-			<Helmet>
-				<title>{`About me`}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
-			</Helmet>
-
+		<div>
 			<div className="page-content">
 				<NavBar active="about" />
 				<div className="content-wrapper">
@@ -38,7 +22,7 @@ const About = () => {
 					</div>
 					<div className="title-container">
 						<div className="title about-title">
-							{INFO.about.title}
+							{userINFO.about.title}
 							<span class="period" data-v-09456b5b="">.</span>
 							<p class="description">Learn more about what technologies I have experience in and why I love what I do!</p>
 						</div>
@@ -102,7 +86,6 @@ const About = () => {
 									<li class="skill soft" data-v-0104b974="">Adaptable</li>
 								</ul>
 							</div>
-
 						</div>
 					</div>
 					<div className="page-footer">
@@ -110,7 +93,7 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</div>
 	);
 };
 
