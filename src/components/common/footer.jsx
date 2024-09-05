@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "./styles/footer.css";
 
@@ -12,7 +11,7 @@ const Footer = () => {
 						Created by 
 						<span class="name">Akhmadillo Mamirov</span>
 					</p>
-					<p class="last-updated">Last Updated: 12/12/2023</p>
+					<p class="last-updated">Last Updated: 09/05/2024</p>
 				</div>
 			</div>
 		</React.Fragment>

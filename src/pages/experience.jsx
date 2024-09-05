@@ -1,15 +1,7 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-
-
-import INFO from "../data/user";
-
-
-
 import "./styles/experience.css";
 
 const Experiences = () => {
@@ -17,14 +9,8 @@ const Experiences = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-
-
 	return (
-		<React.Fragment>
-			<Helmet>
-				<title>{`My Experience`}</title>
-			</Helmet>
-
+		<div>
 			<div className="page-content">
 				<NavBar active="experience" />
 				<div className="content-wrapper">
@@ -45,11 +31,31 @@ const Experiences = () => {
 									Electronic Arts (EA)
 								</p>
 								<div class="positions-container">
-									<div class="level-container">
+								<div class="level-container">
 										<p class="job-title">
-											Incoming Software Engineer Intern
+											Software Engineer Intern
 										</p>
 									</div>
+									<ul class="description-container">
+										<li>
+											Developed and onboarded a new Account Management Tool for seamless troubleshooting of Nucleus player info.
+										</li>
+										<li>
+											Created a centralized platform with React, and Typescript for player ownership, subscriptions, and entitlements.
+										</li>
+										<li>
+											Designed and implemented 25+ secure Node.js APIs consuming EA internal APIs for Identity, Commerce, and Audit
+											services. Consistently exceeded expectations with fast and reliable delivery of new functionalities.
+										</li>
+										<li>
+											Worked with 5+ teams to Integrate OAuth, Player Infraction, Gateway APIs, providing secure and scalable solution
+											with enhanced access control.
+										</li>
+										<li>
+											Deployed into an integration environment using Vault for secrets, Jenkins, Docker for CI/CD, with custom logging and
+											monitoring features. Built on AWS (S3, EC2) with Terraform.
+										</li>
+									</ul>
 								</div>	
 							</div>
 						</section>
@@ -199,7 +205,7 @@ const Experiences = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</div>
 	);
 };
 

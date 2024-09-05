@@ -1,20 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faGithub,
-	faLinkedinIn,
-} from "@fortawesome/free-brands-svg-icons";
-
-
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-
-
-import INFO from "../data/user";
-import SEO from "../data/seo";
-
-
+import userINFO from "../data/userInfo";
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -50,8 +39,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
-
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
@@ -63,38 +50,26 @@ const Homepage = () => {
 	};
 
 	return (
-		<React.Fragment>
-			<Helmet>
-				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
-			</Helmet>
-
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container">
+					<div className="homepage-navbar-container">
 						<div style={logoStyle}>
 							{/* <Logo width={logoSize} link={false} /> */}
 						</div>
 					</div>
-
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{userINFO.homepage.title}
 									<span class="period" data-v-09456b5b="">.</span>
 								</div>
 								
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{userINFO.homepage.description}
 								</div>
 							</div>
-
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
@@ -107,10 +82,9 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.linkedin}
+								href={userINFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -120,7 +94,7 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.github}
+								href={userINFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -130,14 +104,12 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
-
 						<div className="page-footer">
 							<Footer />
 						</div>
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
 	);
 };
 
