@@ -23,7 +23,7 @@ const Experiences = () => {
       date: "05/15/2023 - 07/08/2023",
       description: "Enhanced Security, Payment & Billing components of GraphGrid CDP.",
       skills: ["JavaScript", "React", "Express", "C++"],
-      image: "SFme.png"
+      image: "SFMe.png"
     },
 		{
       company: "Google Developers Group",
