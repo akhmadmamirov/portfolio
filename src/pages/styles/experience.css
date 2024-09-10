@@ -1,3 +1,11 @@
+.experiences-main-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 50px;
+}
+
 .experiences-logo-container {
 	display: flex;
 	justify-content: left;
@@ -13,26 +21,25 @@
 	top: 4vh;
 }
 
+.experience-social-icon {
+	font-size: 25px;
+	padding: 10px;
+	transition: color 0.2s ease-in-out;
+	color: rgba(255,0,128,.718);
+}
+
 .experience-title {
-    padding-top: 120px;
+  padding-top: 60px;
 	width: 100% !important;
 	border-bottom: 3px solid transparent;
-	border-image: linear-gradient(to right, #FFA500, #A770AD);;
+	border-image: linear-gradient(to right, #FFA500, #A770AD);
 	border-image-slice: 1;
 	border-image-repeat: stretch;
 }
 
-.experiences-main-container {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	margin: 0;
-	padding-top: 50px;
-}
-
 .experience-container {
     display: flex;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     padding: 2rem;
     gap: 3rem;
     font-family: Source Code Pro;
@@ -40,6 +47,7 @@
     border-radius: 15px;
     background: linear-gradient(90deg,#333533,#3f403f);
     box-shadow: 6px 6px 0 #fff;
+		height: 350px;
 }
 
 
@@ -52,33 +60,36 @@
 .level-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
     margin-bottom: 1rem;
 	margin: 0;
 }
 
+.title-left{
+	width: 70%;
+}
+
 .company-title {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.7rem;
     font-weight: 700;
     text-shadow: 3px 3px 0 rgba(255,0,128,.718);
-	margin: 0;
+		margin: 0;
 }
 
 .date {
     font-size: 1.2rem;
     font-style: italic;
+		margin-top: 5px;
 }
 
 .description-container {
 	color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    padding: 0;
-    margin: 0;
-    list-style-type: square;
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	padding: 0;
+	margin: 0;
+	list-style-type: square;
 }
 
 .skill-badges-container {
@@ -93,7 +104,7 @@
 	list-style-type: none;
 	font-family: Source Code Pro;
 	padding: 0.5rem 1.5rem;
-	background: linear-gradient(180deg, #A770AD, #FFA500);
+	background-color: #A770AD;
 	border-radius: 5px;
 	box-shadow: 1px 1px 0 #fff;
 }
@@ -102,7 +113,52 @@
     font-size: 1.5rem;
 }
 
+.experience-image-container {
+  margin-top: 20px;
+	margin-left: 80px;
+	width: 250px;
+	height: 370px;
+}
 
+.experience-image-wrapper {
+	overflow: hidden;
+	border-radius: 10%;
+	height: 300px;
+}
+
+.experience-image-wrapper img {
+	width: 100%;
+}
+
+.title-container {
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.experience-details {
+	display: flex;
+	margin: 25px;
+}
+
+.experience-skills {
+	margin-top: 50px;
+}
+
+.slider-button {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	cursor: pointer;
+	border-radius: 30px;
+	background: linear-gradient(180deg, #A770AD, #FFA500);
+	margin: 10px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
 
 @media (max-width: 1024px) {
 	.experiences-title {

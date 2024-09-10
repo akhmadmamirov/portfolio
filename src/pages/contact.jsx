@@ -35,8 +35,7 @@ const Contact = () => {
 							I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
 							periods. But, I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on Linkedin. I post regular updates and engage with my
+							possible. I post regular updates on LinkedIn and engage with my
 							followers there, so don't hesitate to reach out.
 							Thanks again for your interest, and I look forward
 							to hearing from you!

@@ -21,13 +21,13 @@
 
 .name {
     font-style: italic;
-	font-family: Source Code Pro;
+		font-family: Source Code Pro;
     font-size: 1.5rem;
     font-weight: 700;
     background: linear-gradient(to right, #FFA500, #A770AD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	margin-left: 10px;
+		margin-left: 10px;
 }
 
 .footer-links {
