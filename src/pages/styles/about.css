@@ -159,7 +159,7 @@
 	}
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
 	.about-container {
 		padding-top: 10px;
 	}
@@ -175,4 +175,4 @@
 	.about-image-container {
 		width: 100%;
 	}
-} */
+}
