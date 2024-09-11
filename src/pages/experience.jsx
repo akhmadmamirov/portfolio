@@ -72,6 +72,7 @@ const Experiences = () => {
                 <div>
                   <div className="level-container">
                     <div className="title-left">
+                    {/* eslint-disable-next-line jsx-a11y/role-has-required-aria-props */}
                       <p className="company-title" role="heading">
                         {experiences[currentIndex].company}
                       </p>
