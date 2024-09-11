@@ -10,7 +10,7 @@ const Experiences = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const experiences = [
     {
-      company: "ELECTRONIC ARTS (EA)",
+      company: "Electronic Arts (EA)",
       title: "Software Engineer Intern",
       date: "05/20/2024 - 08/09/2024",
       description: "Developed and onboarded a new Player Account Management Tool of ownership & entitlements.",

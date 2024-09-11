@@ -78,9 +78,6 @@ const About = () => {
 									<li class="skill soft" data-v-0104b974="">Collaboration</li>
 									<li class="skill soft" data-v-0104b974="">Accountable</li>
 									<li class="skill soft" data-v-0104b974="">Efficient</li>
-									<li class="skill soft" data-v-0104b974="">Outgoing</li>
-									<li class="skill soft" data-v-0104b974="">Self-aware</li>
-									<li class="skill soft" data-v-0104b974="">Self-learning</li>
 									<li class="skill soft" data-v-0104b974="">Personable</li>
 									<li class="skill soft" data-v-0104b974="">Communication</li>
 									<li class="skill soft" data-v-0104b974="">Adaptable</li>
